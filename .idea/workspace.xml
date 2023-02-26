@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="accessing-data-mysql-initial:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3ca1ff6-a96a-4250-87d4-47d6a529aa37" name="Changes" comment="начало работы над приложением. инициализайия приложения.">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/accessing_data_mysql_initial_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_jar/accessing-data-mysql-initial.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/classes/com/example/accessingdatamysql/AccessingDataMysqlApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/classes/com/example/accessingdatamysql/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/classes/com/example/accessingdatamysql/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/classes/com/example/accessingdatamysql/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/HikariCP-5.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/angus-activation-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/antlr4-runtime-4.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/aspectjweaver-1.9.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/byte-buddy-1.12.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/hibernate-commons-annotations-6.0.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/hibernate-core-6.1.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/istack-commons-runtime-4.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jackson-annotations-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jackson-core-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jackson-databind-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jackson-datatype-jdk8-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jackson-datatype-jsr310-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jackson-module-parameter-names-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jakarta.activation-api-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jakarta.annotation-api-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jakarta.inject-api-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jakarta.persistence-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jakarta.transaction-api-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jakarta.xml.bind-api-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jandex-2.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jaxb-core-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jaxb-runtime-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jboss-logging-3.5.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/jul-to-slf4j-2.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/log4j-api-2.19.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/log4j-to-slf4j-2.19.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/logback-classic-1.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/logback-core-1.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/micrometer-commons-1.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/micrometer-observation-1.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/mysql-connector-j-8.0.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/slf4j-api-2.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/snakeyaml-1.33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-aop-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-aspects-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-beans-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-boot-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-boot-autoconfigure-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-boot-starter-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-boot-starter-aop-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-boot-starter-data-jpa-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-boot-starter-jdbc-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-boot-starter-json-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-boot-starter-logging-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-boot-starter-tomcat-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-boot-starter-web-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-context-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-core-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-data-commons-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-data-jpa-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-expression-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-jcl-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-jdbc-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-orm-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-tx-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-web-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/spring-webmvc-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/tomcat-embed-el-10.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/tomcat-embed-websocket-10.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/accessing_data_mysql_initial_war_exploded/WEB-INF/lib/txw2-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/accessingdatamysql/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/accessingdatamysql/ServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/accessingdatamysql/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/accessingdatamysql/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT.war.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/accessingdatamysql/AccessingDataMysqlApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/accessingdatamysql/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/accessingdatamysql/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/classes/com/example/accessingdatamysql/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/HikariCP-5.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/angus-activation-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/antlr4-runtime-4.10.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.9.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/byte-buddy-1.12.19.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-commons-annotations-6.0.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/hibernate-core-6.1.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/istack-commons-runtime-4.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-core-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-databind-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.14.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.activation-api-2.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.annotation-api-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.inject-api-2.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.persistence-api-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.transaction-api-2.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jakarta.xml.bind-api-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jandex-2.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-core-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jaxb-runtime-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jboss-logging-3.5.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-2.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-api-2.19.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.19.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/logback-classic-1.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/logback-core-1.4.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/micrometer-commons-1.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/micrometer-observation-1.10.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/mysql-connector-j-8.0.31.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/slf4j-api-2.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/snakeyaml-1.33.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aop-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-aspects-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-beans-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-aop-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-data-jpa-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-context-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-core-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-commons-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-data-jpa-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-expression-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jcl-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-jdbc-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-orm-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-tx-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-web-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/spring-webmvc-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/accessing-data-mysql-complete-0.0.1-SNAPSHOT/WEB-INF/lib/txw2-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/accessingdatamysql/AccessingDataMysqlApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/accessingdatamysql/MainController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/accessingdatamysql/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/accessingdatamysql/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/2023-02-25T00-29-44_596-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.example.accessingdatamysql.AccessingDataMysqlApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/com.example.accessingdatamysql.AccessingDataMysqlApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/accessingdatamysql/AccessingDataMysqlApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/accessingdatamysql/AccessingDataMysqlApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/accessingdatamysql/AccessingDataMysqlApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2LvKdVdyhbJP8VQv8LRdZyV8iko" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/IdeaProjects/gs-accessing-data-mysql",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.21800433",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "b816a4077c02926d1b60776e9132fc73"
+  }
+}]]></component>
+  <component name="RunManager" selected="Spring Boot.AccessingDataMysqlApplication">
+    <configuration name="AccessingDataMysqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="ACTIVE_PROFILES" />
+      <module name="accessing-data-mysql-initial" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.accessingdatamysql.AccessingDataMysqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.6" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.6" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/accessing_data_mysql_initial_war_exploded" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="accessing-data-mysql-initial:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/accessing_data_mysql_initial_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="b35eb824-deec-4d61-b7b4-9e7e3d3faafa" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62492" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="accessing-data-mysql-initial:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AccessingDataMysqlApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.6" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3ca1ff6-a96a-4250-87d4-47d6a529aa37" name="Changes" comment="" />
+      <created>1676746205368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676746205368</updated>
+      <workItem from="1676746206809" duration="1661000" />
+      <workItem from="1676994370472" duration="52000" />
+      <workItem from="1676996416123" duration="100000" />
+      <workItem from="1676996659614" duration="3478000" />
+      <workItem from="1677002324216" duration="37000" />
+      <workItem from="1677172011975" duration="18000" />
+      <workItem from="1677172070467" duration="7024000" />
+      <workItem from="1677260319220" duration="2738000" />
+      <workItem from="1677268832928" duration="10390000" />
+      <workItem from="1677404728778" duration="1033000" />
+    </task>
+    <task id="LOCAL-00001" summary="начало работы над приложением. инициализайия приложения.">
+      <created>1676881047355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676881047355</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="начало работы над приложением. инициализайия приложения." />
+    <option name="LAST_COMMIT_MESSAGE" value="начало работы над приложением. инициализайия приложения." />
+  </component>
+</project>
